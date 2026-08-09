@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+    min-height: 100vh;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: #6a1b9a;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 2.5em;
+}
+.section {
+    background: linear-gradient(135deg, #ffffff, #f8f5ff);
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(106, 27, 154, 0.15);
+    border: 1px solid rgba(106, 27, 154, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(106, 27, 154, 0.2);
+}
+.section h2 {
+    color: #7b1fa2;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+.section input[type="file"], .section textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #e1bee7;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    transition: border-color 0.3s ease;
+    background-color: #fafafa;
+}
+.section input[type="file"]:focus, .section textarea:focus {
+    outline: none;
+    border-color: #9c27b0;
+    background-color: white;
+}
+.section textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+.section button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background: linear-gradient(135deg, #9c27b0, #7b1fa2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1em;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 8px rgba(156, 39, 176, 0.3);
+}
+.section button:hover {
+    background: linear-gradient(135deg, #7b1fa2, #6a1b9a);
+    transform: translateY(-1px);
+}
+canvas {
+    max-width: 100%;
+    border: 2px solid #e1bee7;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: white;
+}
+#output {
+    white-space: pre-wrap;
+    background: linear-gradient(135deg, #fafafa, #f0f0f0);
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 60px;
+    border: 1px solid #e1bee7;
+    font-family: 'Monaco', 'Courier New', monospace;
+    color: #555;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+}
+.steg-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* LOGIN OVERLAY STYLES */
+#auth-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.auth-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.auth-box h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.auth-box form {
+    display: flex;
+    flex-direction: column;
+}
+.auth-box input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.auth-box button {
+    padding: 10px;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.auth-box button:hover {
+    background-color: #FF1493;
+}
+.auth-box .toggle {
+    text-align: center;
+    margin-top: 10px;
+}
+.auth-box .toggle a {
+    color: #FF69B4;
+    text-decoration: none;
+}
+.hidden {
+    display: none;
+}
+#tool-container {
+    display: none;
+}
