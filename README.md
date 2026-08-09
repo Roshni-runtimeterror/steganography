@@ -28,12 +28,16 @@ JavaScript| Data hiding, extraction, and interactive functionality
 🔄 Working Process
 
 📁 Select Media
+   
        ↓
 ✍️ Enter Secret Message
+      
        ↓
 🔐 Hide Data
+      
        ↓
 📦 Generate Output
+      
        ↓
 🔓 Extract Hidden Message
 
