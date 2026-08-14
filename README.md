@@ -49,28 +49,20 @@ Development Environment
 
 ---
 
-📂 Project Structure
+,## 📂 Project Structure
 
-Steganography/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── php/
-│   ├── config.php
-│   ├── database.php
-│   └── ...
-│
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-└── README.md
-
-«The exact folder structure may vary depending on your implementation.»
-
----
+<table>
+<tr>
+<td>📁 Steganography</td>
+<td>📄 index.php</td>
+<td>📄 style.css</td>
+<td>📄 script.js</td>
+<td>📁 php</td>
+<td>📁 assets</td>
+<td>📁 uploads</td>
+<td>📄 README.md</td>
+</tr>
+</table>
 
 🗄️ Database
 
