@@ -95,7 +95,7 @@ MySQL
 
 2. Clone the Repository
 
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Roshni-runtimeterror/steganography.git
 
 3. Move Project to XAMPP
 
@@ -126,7 +126,6 @@ $username = "root";
 $password = "";
 $database = "your_database_name";
 
-«Do not upload real passwords or sensitive credentials to GitHub.»
 
 6. Run the Website
 
