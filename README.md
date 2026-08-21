@@ -2,7 +2,8 @@
 
 <p align="center">
   <b>A web-based application for securely hiding and extracting confidential information inside digital media.</b>
-</p>---
+  
+</p>
 url link: https://roshni-runtimeterror.github.io/steganography/
 📌 About the Project
 
