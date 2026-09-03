@@ -5,6 +5,8 @@
   
 </p>
 url link: https://roshni-runtimeterror.github.io/steganography/
+<br>
+
 📌 About the Project
 
 Steganography is a web application designed to demonstrate how sensitive information can be hidden inside digital media without visibly altering the original file.
@@ -12,6 +14,7 @@ Steganography is a web application designed to demonstrate how sensitive informa
 The application provides a simple interface for users to encode hidden information and decode it when required. PHP and MySQL are used for backend/database functionality, with XAMPP used as the local development environment.
 
 ---
+<img width="150"  alt="WhatsApp Video 2026-09-03 at 11 59 04" src="https://github.com/user-attachments/assets/a6f8a884-4cd1-4599-9a69-2acf37b3aaa5" />
 
 ✨ Features
 
